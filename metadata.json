@@ -1,0 +1,5 @@
+{
+  "name": "School",
+  "description": "An AI-powered application to manage student transportation for Adalat Girls' High School, including student/driver data, financials, and reporting.",
+  "requestFramePermissions": []
+}
