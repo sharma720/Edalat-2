@@ -175,7 +175,8 @@ const payments: Payment[] = [
 
 
 // --- API CLIENT ---
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+import { getApiKey } from './config';
+const ai = new GoogleGenAI({ apiKey: getApiKey() });
 
 // --- UTILITY FUNCTIONS ---
 const formatCurrency = (amount: number) => new Intl.NumberFormat('fa-IR').format(amount);
